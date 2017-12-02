@@ -1,0 +1,135 @@
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px){
+      .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+      }
+  }
+
+  @media only screen and (max-width: 500px){
+      .responsive {
+          width: 100%;
+      }
+  }
+
+    .parallax {
+        /* The image used */
+        background-image: url("headerphoto.jpg");
+        /* Set a specific height */
+        min-height:650px;
+        /*filter to change the color*/
+        filter: contrast(75%);
+        padding:0;
+
+        /* Create the parallax scrolling effect*/
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body{
+      padding:0;
+    }
+    .parallax p{
+      padding:0;
+      text-align: center;
+      font-size: 60px;
+      color:#b6efcf;
+      width:100%;
+      font-family: 'Faustina', serif;
+
+    }
+    .after{
+      height:1200px;
+      background-color:white;
+      opacity: 1;
+      font-size:16px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    #greenbox{
+      height:200px;
+      width:75%;
+      background-color: #496d41;
+      float:right;
+      padding: 20px;
+      margin:30px;
+    }
+
+    #greenbox h{
+      margin: 10px;
+      font-size:30px;
+      color:white;
+      font-family: 'Slabo 27px', serif;
+    }
+
+    #greenbox p{
+      margin:40px;
+      font-size:16px;
+      color:white;
+      font-family: 'Poppins', sans-serif;
+    }
+    #greenbox1{
+      height:200px;
+      width:75%;
+      background-color: #496d41;
+      float:left;
+      padding: 20px;
+      margin:30px;
+    }
+
+    #greenbox1 h{
+      margin: 10px;
+      font-size:30px;
+      color:white;
+      font-family: 'Slabo 27px', serif;
+    }
+
+    #greenbox1 p{
+      margin:40px;
+      font-size:16px;
+      color:white;
+      font-family: 'Poppins', sans-serif;
+    }
+    #otherbox{
+      height:200px;
+      width:75%;
+      background-color: #26e0c4;
+      float:left;
+      margin:40px;
+    }
+
+
+    #otherbox p{
+      margin:20px;
+      font-size:37px;
+      text-align: center;
+      color:black;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Glegoo', serif;
+    }
+    #bottominfo{
+      height:250px;
+      width:100%;
+      background-color:#496d41;
+    }
+
+    #bottominfo h{
+      font-family: 'Noto Serif', serif;
+      font-size:20px;
+      color:white;
+    }
+    .namezz{
+      font-family: 'Noto Serif', serif;
+      font-size: 20px;
+      color:white;
+    }
