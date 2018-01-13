@@ -1,3 +1,10 @@
-# amet_garevi - Entertainment Website for SF Chinatown Library GWC Club!
+amet_garevi - Entertainment Website for SF Chinatown Library GWC Club!
+========================================================================
 
-* Thank you for visiting
+# Club contract
+
+* Be productive - Work smart not hard!
+* Do your best
+* Don't be mean
+* Respect other people's ideas
+* Be accountable - do your share of the work
